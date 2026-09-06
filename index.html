@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>La Lame Noire de l’Ordre des Pourfendeurs</title>
+<style>
+  :root{
+    --bg:#0b0b0d;
+    --panel:#141419;
+    --panel2:#1b1b22;
+    --text:#ece9e2;
+    --muted:#b8b2a7;
+    --accent:#b5282f;
+    --accent2:#6c0f15;
+    --gold:#d2b36d;
+    --line:#2b2b33;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family: Georgia, "Times New Roman", serif;
+    background:
+      radial-gradient(circle at top, rgba(181,40,47,.12), transparent 35%),
+      linear-gradient(180deg,#09090b 0%,#0d0d11 100%);
+    color:var(--text);
+    line-height:1.7;
+  }
+  .hero{
+    min-height:58vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:70px 24px 50px;
+    border-bottom:1px solid var(--line);
+  }
+  .hero-inner{max-width:920px}
+  .eyebrow{
+    letter-spacing:.22em;
+    text-transform:uppercase;
+    color:var(--gold);
+    font-size:.78rem;
+    margin-bottom:18px;
+  }
+  h1{
+    margin:0;
+    font-size:clamp(2.4rem,6vw,5.2rem);
+    line-height:1.05;
+    font-weight:700;
+  }
+  .subtitle{
+    margin:22px auto 0;
+    max-width:760px;
+    color:var(--muted);
+    font-size:1.05rem;
+  }
+  blockquote{
+    margin:34px auto 0;
+    max-width:760px;
+    padding:24px 28px;
+    border-left:4px solid var(--accent);
+    background:rgba(255,255,255,.025);
+    color:#fff;
+    font-size:1.25rem;
+    font-style:italic;
+  }
+  main{
+    width:min(1040px, calc(100% - 32px));
+    margin:0 auto;
+    padding:54px 0 80px;
+  }
+  section{
+    background:linear-gradient(180deg,var(--panel),var(--panel2));
+    border:1px solid var(--line);
+    border-radius:18px;
+    padding:30px;
+    margin-bottom:24px;
+    box-shadow:0 10px 35px rgba(0,0,0,.22);
+  }
+  h2{
+    margin:0 0 12px;
+    font-size:1.65rem;
+    color:#fff;
+  }
+  .rule{
+    width:72px;
+    height:3px;
+    background:linear-gradient(90deg,var(--accent),var(--gold));
+    margin:10px 0 22px;
+    border-radius:2px;
+  }
+  p{margin:0 0 14px}
+  .highlight{
+    color:#fff;
+    font-weight:700;
+  }
+  ul{
+    margin:10px 0 0 20px;
+    padding:0;
+  }
+  li{margin:10px 0}
+  .duo{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:24px;
+  }
+  .quote-end{
+    text-align:center;
+    padding:28px;
+    border:1px solid rgba(210,179,109,.25);
+    background:linear-gradient(180deg, rgba(181,40,47,.10), rgba(210,179,109,.04));
+  }
+  .quote-end strong{
+    display:block;
+    font-size:1.3rem;
+    color:#fff;
+  }
+  footer{
+    text-align:center;
+    color:#7f7a72;
+    font-size:.85rem;
+    padding:0 20px 40px;
+  }
+  @media (max-width:760px){
+    .duo{grid-template-columns:1fr}
+    section{padding:22px}
+  }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">Titre honorifique d’exception</div>
+      <h1>La Lame Noire</h1>
+      <div class="subtitle">de l’Ordre des Pourfendeurs</div>
+      <blockquote>
+        « Certains manient une lame pour tuer les démons.<br>
+        La Lame Noire, elle, porte le poids de l’Ordre tout entier. »
+      </blockquote>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Un titre d’une rareté extrême</h2>
+      <div class="rule"></div>
+      <p>
+        La <span class="highlight">Lame Noire</span> est l’un des titres les plus rares et prestigieux
+        pouvant être accordés au sein de l’Ordre des Pourfendeurs. Il ne récompense pas uniquement la puissance,
+        ni un simple grade. Il distingue des êtres dont le parcours, les décisions et la responsabilité ont fini
+        par dépasser leur propre personne.
+      </p>
+      <p>
+        Ceux qui le portent ont consacré une part importante de leur existence à défendre l’humanité,
+        quitte à devoir affronter aussi bien les démons que les hommes.
+      </p>
+    </section>
+
+    <section>
+      <h2>Des combattants devenus des piliers vivants</h2>
+      <div class="rule"></div>
+      <p>
+        Une Lame Noire n’est pas nécessairement un <span class="highlight">Pilier</span> au sens hiérarchique.
+        Pourtant, avec le temps, ces individus deviennent indirectement de véritables
+        <span class="highlight">Piliers vivants de l’Ordre</span>.
+      </p>
+      <p>
+        Leur présence rassure les loyaux, impose le respect aux combattants expérimentés et rappelle que certaines
+        personnes ont déjà porté sur leurs épaules des décisions que beaucoup n’auraient jamais accepté d’assumer.
+      </p>
+    </section>
+
+    <div class="duo">
+      <section>
+        <h2>Craints par les démons</h2>
+        <div class="rule"></div>
+        <p>
+          Les démons redoutent les Lames Noires pour leur expérience, leur détermination et leur capacité
+          à poursuivre une menace jusqu’à son terme. Leur nom peut devenir une réputation à lui seul.
+        </p>
+      </section>
+
+      <section>
+        <h2>Craints par les humains</h2>
+        <div class="rule"></div>
+        <p>
+          Mais leur réputation ne s’arrête pas au monde démoniaque. Traîtres, collaborateurs, meurtriers
+          et ennemis internes savent qu’une Lame Noire peut retourner son sabre contre un humain lorsque
+          la protection de l’Ordre et de l’humanité l’exige.
+        </p>
+      </section>
+    </div>
+
+    <section>
+      <h2>Le poids des décisions</h2>
+      <div class="rule"></div>
+      <p>
+        Une Lame Noire est avant tout quelqu’un qui a pris des décisions lourdes, parfois irréversibles,
+        et qui en assume les conséquences. Elle sait distinguer la nécessité de la vengeance personnelle,
+        la justice de la cruauté, et l’urgence de la précipitation.
+      </p>
+      <p>
+        Certaines décisions auront sauvé des vies. D’autres en auront condamné. Mais aucune ne pourra être
+        prise à la légère.
+      </p>
+    </section>
+
+    <section>
+      <h2>Conditions pour porter le titre</h2>
+      <div class="rule"></div>
+      <ul>
+        <li>Avoir consacré une part importante de son existence à l’Ordre.</li>
+        <li>Avoir participé à plusieurs événements majeurs de son histoire.</li>
+        <li>Avoir porté la responsabilité de nombreuses vies.</li>
+        <li>Avoir pris et assumé des décisions extrêmement lourdes.</li>
+        <li>Savoir distinguer justice, nécessité et vengeance personnelle.</li>
+        <li>Être capable de défendre l’humanité contre les menaces démoniaques comme humaines.</li>
+        <li>Être reconnu comme une figure suffisamment importante pour que son nom possède déjà un poids au sein de l’Ordre.</li>
+        <li>Ne jamais pouvoir s’autoproclamer Lame Noire : le titre doit être accordé et reconnu par autrui.</li>
+      </ul>
+    </section>
+
+    <section class="quote-end">
+      <strong>« Lorsqu’un démon entend son nom, il se prépare à combattre.</strong>
+      <strong>Lorsqu’un traître entend son nom… il se demande combien de temps il lui reste. »</strong>
+    </section>
+  </main>
+
+  <footer>
+    Document RP — Ordre des Pourfendeurs • La Lame Noire
+  </footer>
+</body>
+</html>
